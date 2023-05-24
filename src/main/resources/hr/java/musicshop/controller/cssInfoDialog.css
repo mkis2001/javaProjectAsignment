@@ -1,0 +1,40 @@
+/*--Information dialog-----*/
+* {
+    -fx-tekst-color: #125679;
+    -fx-tekstprompt-color: rgba(18, 86, 121, 0.73);
+    -fx-back-color: #fefefe;
+    -fx-line-color: #adadad;
+    -fx-fields-color: #fefefe;
+    -fx-secondary-color: #181D31;
+    -fx-red-color: #a92f2f;
+    -fx-darkerRed-color: #802424;
+}
+
+.button{
+    -fx-font-size: 15;
+    -fx-background-radius: 5;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 3, 3);
+}
+
+.dialog-pane{
+    -fx-background-color: -fx-back-color;
+}
+.dialog-pane .label{
+    -fx-text-fill: -fx-tekst-color;
+}
+.dialog-pane .button{
+    -fx-background-color: -fx-back-color;
+    -fx-text-fill: -fx-tekst-color;
+}
+.dialog-pane .button:hover{
+    -fx-background-color: -fx-tekst-color;
+    -fx-text-fill: -fx-back-color;
+}
+.dialog-pane .header-panel {
+    -fx-background-color: -fx-tekst-color;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 3);
+}
+.dialog-pane .header-panel .label{
+    -fx-font-weight: bold;
+    -fx-text-fill: -fx-back-color;
+}

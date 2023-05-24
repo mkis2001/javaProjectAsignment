@@ -1,0 +1,28 @@
+2023-02-16 11:18:42,953 INFO [JavaFX Application Thread] h.j.m.c.HelloApplication [Dogadaj.java:20] Program started (User: java)
+2023-02-16 11:18:46,187 INFO [JavaFX Application Thread] h.j.m.c.HelloApplication [Dogadaj.java:20] Program started (User: none)
+2023-02-16 11:18:53,836 ERROR [JavaFX Application Thread] h.j.m.c.HelloApplication [LoginController.java:43] Incorrect username or password.
+2023-02-16 11:18:59,366 INFO [JavaFX Application Thread] h.j.m.c.HelloApplication [Dogadaj.java:20] User logged in (User: java)
+2023-02-16 11:19:04,846 ERROR [JavaFX Application Thread] h.j.m.c.HelloApplication [ElGuitarsController.java:161] No product is selected!
+2023-02-16 11:19:13,654 ERROR [JavaFX Application Thread] h.j.m.c.HelloApplication [InstrumentController.java:85] No instruments matching set filters.
+2023-02-16 11:19:23,284 ERROR [JavaFX Application Thread] h.j.m.c.HelloApplication [InstrumentController.java:55] From must be numeric value!
+2023-02-16 11:19:33,511 ERROR [JavaFX Application Thread] h.j.m.c.HelloApplication [InstrumentController.java:52] null
+2023-02-16 11:21:26,385 INFO [JavaFX Application Thread] h.j.m.c.HelloApplication [Dogadaj.java:20] Program started (User: java)
+2023-02-16 11:21:31,005 INFO [JavaFX Application Thread] h.j.m.c.HelloApplication [Dogadaj.java:20] User logged in (User: java)
+2023-02-16 11:21:44,618 ERROR [JavaFX Application Thread] h.j.m.c.HelloApplication [InstrumentController.java:51] null
+2023-02-16 11:22:39,453 INFO [JavaFX Application Thread] h.j.m.c.HelloApplication [Dogadaj.java:20] Program started (User: java)
+2023-02-16 11:22:44,916 INFO [JavaFX Application Thread] h.j.m.c.HelloApplication [Dogadaj.java:20] User logged in (User: java)
+2023-02-16 11:22:53,636 ERROR [JavaFX Application Thread] h.j.m.c.HelloApplication [InstrumentController.java:51] Number mismatch exception
+2023-02-16 15:35:14,776 INFO [JavaFX Application Thread] h.j.m.c.HelloApplication [Dogadaj.java:20] Program started (User: java)
+2023-02-16 15:35:24,239 INFO [JavaFX Application Thread] h.j.m.c.HelloApplication [Dogadaj.java:20] User logged in (User: java)
+2023-02-16 15:36:01,673 INFO [JavaFX Application Thread] h.j.m.c.HelloApplication [Dogadaj.java:20] Program started (User: java)
+2023-02-16 15:36:07,971 INFO [JavaFX Application Thread] h.j.m.c.HelloApplication [Dogadaj.java:20] User logged in (User: java)
+2023-02-16 15:37:57,277 ERROR [JavaFX Application Thread] h.j.m.c.HelloApplication [InstrumentController.java:85] No instruments matching set filters.
+2023-02-16 15:38:27,016 ERROR [JavaFX Application Thread] h.j.m.c.HelloApplication [InstrumentController.java:85] No instruments matching set filters.
+2023-02-16 15:39:04,278 ERROR [JavaFX Application Thread] h.j.m.c.HelloApplication [PianoController.java:171] No product is selected!
+2023-02-16 16:26:18,252 INFO [JavaFX Application Thread] h.j.m.c.HelloApplication [Dogadaj.java:20] Program started (User: java)
+2023-02-16 16:28:17,330 INFO [JavaFX Application Thread] h.j.m.c.HelloApplication [Dogadaj.java:20] User logged in (User: java)
+2023-02-16 16:28:34,194 INFO [JavaFX Application Thread] h.j.m.c.HelloApplication [Dogadaj.java:20] Account 'User1' created. (User: none)
+2023-02-16 16:28:40,498 INFO [JavaFX Application Thread] h.j.m.c.HelloApplication [Dogadaj.java:20] User logged in (User: User1)
+2023-02-16 16:28:48,404 INFO [JavaFX Application Thread] h.j.m.c.HelloApplication [Dogadaj.java:20] User 'User1' deleted. (User: none)
+2023-02-16 16:28:59,157 INFO [JavaFX Application Thread] h.j.m.c.HelloApplication [Dogadaj.java:20] User logged in (User: java)
+2023-02-16 16:30:47,293 INFO [JavaFX Application Thread] h.j.m.c.HelloApplication [Dogadaj.java:20] Guitar 'java Custom 6 TOM' created by 'java' (User: java)
