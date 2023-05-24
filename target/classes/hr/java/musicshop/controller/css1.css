@@ -1,0 +1,213 @@
+
+* {
+    -fx-tekst-color: #125679;
+    -fx-tekstprompt-color: rgba(18, 86, 121, 0.73);
+    -fx-back-color: #fefefe;
+    -fx-line-color: #adadad;
+    -fx-fields-color: #fefefe;
+    -fx-secondary-color: #181D31;
+    -fx-red-color: #a92f2f;
+    -fx-darkerRed-color: #802424;
+}
+
+#textFlow{
+    -fx-font-size: 17;
+}
+
+.root{
+    -fx-background-color: -fx-back-color;
+    -fx-font-family: Verdana;
+}
+
+#homeButton{
+    -fx-background-color: transparent;
+    -fx-text-fill: -fx-back-color;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0), 10, 0, 0, 3);
+}
+
+#homeButton:hover{
+    -fx-text-fill: -fx-tekst-color;
+    -fx-background-color: -fx-back-color;
+}
+
+#usersButton{
+    -fx-background-color: transparent;
+    -fx-text-fill: -fx-tekst-color;
+    -fx-font-style: italic;
+    -fx-underline: true;
+}
+
+#usersButton:hover{
+    -fx-text-fill: -fx-tekstprompt-color;
+}
+
+.label{
+    -fx-text-fill: -fx-tekst-color;
+}
+
+#naslov{
+    -fx-font-size: 34px;
+    -fx-text-fill: -fx-back-color;
+}
+
+#price{
+    -fx-font-size: 30;
+    -fx-fill: -fx-darkerRed-color;
+    -fx-font-style: italic;
+}
+
+#naslovPane{
+    -fx-background-color: -fx-tekst-color;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 3);
+}
+
+/*--Buttons--------------------------------------------------------------*/
+
+.button{
+    -fx-text-fill: -fx-back-color;
+    -fx-background-color: -fx-tekst-color;
+    -fx-font-size: 15;
+    -fx-background-radius: 5;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 3, 3);
+}
+.button:hover{
+    -fx-background-color: -fx-tekstprompt-color;
+}
+
+#resetButton{
+    -fx-background-color: -fx-back-color;
+    -fx-text-fill: -fx-tekst-color;
+}
+
+#resetButton:hover{
+    -fx-background-color: -fx-red-color;
+    -fx-text-fill: -fx-back-color;
+}
+
+#startMenuButton{
+    -fx-background-color: -fx-back-color;
+    -fx-background-radius: 0;
+    -fx-text-fill: -fx-tekst-color;
+    -fx-font-size: 20;
+}
+
+#startMenuButton:hover{
+    -fx-background-color: -fx-tekstprompt-color;
+    -fx-text-fill: -fx-back-color;
+}
+
+.check-box .box{
+    -fx-background-color: -fx-back-color;
+    -fx-background-radius: 5;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 3, 3);
+}
+
+.check-box:selected .box{
+    -fx-background-color: #6bc02a;
+}
+
+/*--Text field--------------------------------------------------------------*/
+
+.text-field{
+    -fx-background-color: -fx-back-color;
+    -fx-text-fill:-fx-tekst-color;
+    -fx-prompt-text-fill: -fx-tekstprompt-color;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 3, 3);
+    -fx-background-radius: 5;
+}
+
+.text-field:focused{
+    -fx-border-color: -fx-tekst-color;
+    -fx-border-radius: 5;
+}
+
+/*--Choice box--------------------------------------------------------------*/
+
+.choice-box{
+    -fx-background-color: -fx-fields-color;
+    -fx-text-fill: -fx-tekst-color;
+    -fx-background-radius: 5;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 3, 3);
+}
+.choice-box .context-menu{
+    -fx-background-color: -fx-fields-color;
+    -fx-background-radius: 5;
+}
+.choice-box .menu-item:focused{
+    -fx-background-color: -fx-tekst-color;
+}
+.choice-box .menu-item:focused > .label{
+    -fx-text-fill:-fx-back-color;
+}
+
+/*--Table view--------------------------------------------------------------*/
+
+.table-view{
+    -fx-background-color: -fx-tekstprompt-color;
+}
+
+.table-view .column-header{
+    -fx-background-color: -fx-tekst-color;
+}
+
+.table-view .column-header > .label{
+    -fx-text-fill: -fx-back-color;
+}
+
+.table-row-cell{
+    -fx-background-color: transparent;
+}
+
+.table-cell{
+    -fx-text-fill: -fx-back-color;
+}
+
+.table-row-cell:hover{
+    -fx-background-color: -fx-tekstprompt-color;
+}
+
+.table-row-cell:focused{
+    -fx-background-color: -fx-tekst-color;
+}
+
+/*--Dialog--------------------------------------------------------------*/
+
+.dialog-pane{
+    -fx-background-color: -fx-red-color;
+}
+
+.dialog-pane .label{
+    -fx-text-fill: -fx-back-color;
+}
+
+.dialog-pane .button{
+    -fx-background-color: -fx-back-color;
+    -fx-text-fill: -fx-red-color;
+}
+
+.dialog-pane .button:hover{
+    -fx-background-color: -fx-darkerRed-color;
+    -fx-text-fill: -fx-back-color;
+}
+
+.dialog-pane .header-panel {
+    -fx-background-color: -fx-darkerRed-color;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 3);
+}
+
+.dialog-pane .header-panel .label{
+    -fx-text-fill: -fx-back-color;
+}
+
+
+/*----------------------------------------------*/
+.placeholder .label{
+    -fx-text-fill: -fx-red-color;
+    -fx-font-size: 15;
+}
+
+.line{
+    -fx-stroke: -fx-tekst-color;
+}
+
+
